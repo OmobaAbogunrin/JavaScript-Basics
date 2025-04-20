@@ -7,7 +7,7 @@ Use console.log() (not alert)
 */
 
 // Ask the user to enter a number
-let number = parseInt("Enter a number to generate its multiplication table:");
+let number = parseInt(prompt("Enter a number to generate its multiplication table:"));
 
 // Check if the input is a valid number
 if (isNaN(number)) {

@@ -9,7 +9,7 @@ Below 50: "Needs Improvement"
 */
 
 // Ask the user to enter a score
-let score = parseInt(("Enter your score (between 0 – 100):"));
+let score = parseInt(prompt("Enter your score (between 0 and 100):"));
 
 // Check if the input is a valid number within the range
 if (isNaN(score) || score < 0 || score > 100) {
